@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Hunter</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    
+    <div class="d-flex w-50 ms-2 my-4" role="search">
+        <input id="search-phone" class="form-control me-2" type="search" placeholder="Search Phones" aria-label="Search">
+        <button id="search-btn" class="btn btn-outline-success" type="submit">Search</button>
+    </div>
+
+<main>
+    <section id="loader" class="d-none">
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+    </section>
+    <section>
+        <div id="display-phone" class="row row-cols-1 row-cols-md-3 g-4 w-100 mx-auto">
+            
+        </div>
+    </section>
+    <section>
+        <div id="show-btn" class="d-none m-3">
+            <button id="show-all-phones" class="btn btn-success">Show more</button>
+        </div>
+    </section>
+</main>
+
+
+
+
+
+
+    <!-- script file -->
+    <script src="phone.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
